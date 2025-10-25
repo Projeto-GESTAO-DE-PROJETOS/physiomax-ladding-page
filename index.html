@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FisioVida - Fisioterapia Especializada</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-sans antialiased">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <div class="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-xl">P</span>
+                    </div>
+                    <span class="text-2xl font-bold text-gray-900">PhysioMax</span>
+                </div>
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="#servicos" class="text-gray-700 hover:text-purple-600 transition">Serviços</a>
+                    <a href="#beneficios" class="text-gray-700 hover:text-purple-600 transition">Benefícios</a>
+                    <a href="#sobre" class="text-gray-700 hover:text-purple-600 transition">Sobre</a>
+                    <a href="#agendamento" class="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition">Agendar Consulta</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-purple-50 to-white py-20 lg:py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="inline-block bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
+                        ✨ Cuidando da sua saúde com excelência
+                    </div>
+                    <h1 class="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                        Recupere sua <span class="text-purple-600">qualidade de vida</span>
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                        Tratamentos personalizados com fisioterapeutas especializados. Tecnologia de ponta e atendimento humanizado para sua recuperação completa.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#agendamento" class="bg-purple-600 text-white px-8 py-4 rounded-lg hover:bg-purple-700 transition text-center font-medium text-lg">
+                            Agendar Avaliação Gratuita
+                        </a>
+                        <a href="#servicos" class="bg-white text-purple-600 px-8 py-4 rounded-lg border-2 border-purple-600 hover:bg-purple-50 transition text-center font-medium text-lg">
+                            Nossos Serviços
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-purple-600 rounded-3xl p-8 shadow-2xl">
+                        <img src="img/banner.png" alt="Fisioterapia" class="rounded-2xl w-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Nossos Serviços</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Oferecemos tratamentos especializados para diversas condições
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-purple-50 rounded-2xl p-8 hover:shadow-xl transition">
+                    <div class="w-16 h-16 bg-purple-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Fisioterapia Ortopédica</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Tratamento de lesões musculoesqueléticas, fraturas, entorses e pós-operatório.
+                    </p>
+                </div>
+                <div class="bg-purple-50 rounded-2xl p-8 hover:shadow-xl transition">
+                    <div class="w-16 h-16 bg-purple-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Fisioterapia Esportiva</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Prevenção e reabilitação de lesões esportivas para atletas de todos os níveis.
+                    </p>
+                </div>
+                <div class="bg-purple-50 rounded-2xl p-8 hover:shadow-xl transition">
+                    <div class="w-16 h-16 bg-purple-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">RPG e Pilates</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Reeducação postural global e fortalecimento muscular personalizado.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="beneficios" class="py-20 bg-purple-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">Por que escolher a PhysioMax?</h2>
+                    <div class="space-y-6">
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
+                                <span class="text-white font-bold text-xl">✓</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Profissionais Especializados</h3>
+                                <p class="text-gray-600">Equipe com mais de 15 anos de experiência e formação continuada.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
+                                <span class="text-white font-bold text-xl">✓</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Equipamentos Modernos</h3>
+                                <p class="text-gray-600">Tecnologia de ponta para diagnóstico e tratamento eficaz.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
+                                <span class="text-white font-bold text-xl">✓</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Atendimento Personalizado</h3>
+                                <p class="text-gray-600">Plano de tratamento individualizado para suas necessidades.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
+                                <span class="text-white font-bold text-xl">✓</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Horários Flexíveis</h3>
+                                <p class="text-gray-600">Atendimento de segunda a sábado com horários adaptados à sua rotina.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-3xl p-8 shadow-xl">
+                    <img src="img/foto-equipamento.webp" alt="Equipamentos" class="rounded-2xl w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Form Section -->
+    <section id="agendamento" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Agende sua Consulta</h2>
+                <p class="text-xl text-gray-600">
+                    Preencha o formulário abaixo e entraremos em contato para confirmar seu horário
+                </p>
+            </div>
+            <div class="bg-purple-50 rounded-3xl p-8 lg:p-12 shadow-xl">
+                <form id="appointmentForm" class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="nome" class="block text-sm font-medium text-gray-900 mb-2">Nome Completo *</label>
+                            <input type="text" id="nome" name="nome" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-900 mb-2">E-mail *</label>
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition">
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="telefone" class="block text-sm font-medium text-gray-900 mb-2">Telefone *</label>
+                            <input type="tel" id="telefone" name="telefone" required placeholder="(00) 00000-0000" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition">
+                        </div>
+                        <div>
+                            <label for="data" class="block text-sm font-medium text-gray-900 mb-2">Data Preferencial *</label>
+                            <input type="date" id="data" name="data" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition">
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="horario" class="block text-sm font-medium text-gray-900 mb-2">Horário Preferencial *</label>
+                            <select id="horario" name="horario" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition">
+                                <option value="">Selecione um horário</option>
+                                <option value="manha">Manhã (8h - 12h)</option>
+                                <option value="tarde">Tarde (13h - 17h)</option>
+                                <option value="noite">Noite (18h - 20h)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="servico" class="block text-sm font-medium text-gray-900 mb-2">Tipo de Serviço *</label>
+                            <select id="servico" name="servico" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition">
+                                <option value="">Selecione um serviço</option>
+                                <option value="ortopedica">Fisioterapia Ortopédica</option>
+                                <option value="esportiva">Fisioterapia Esportiva</option>
+                                <option value="rpg">RPG</option>
+                                <option value="pilates">Pilates</option>
+                                <option value="avaliacao">Avaliação Inicial</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="mensagem" class="block text-sm font-medium text-gray-900 mb-2">Mensagem (Opcional)</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos um pouco sobre sua condição ou dúvidas..." class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition resize-none"></textarea>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <input type="checkbox" id="termos" name="termos" required class="mt-1 w-5 h-5 text-purple-600 border-gray-300 rounded focus:ring-purple-600">
+                        <label for="termos" class="text-sm text-gray-600">
+                            Concordo em receber contato da FisioVida para confirmação de agendamento e informações sobre os serviços. *
+                        </label>
+                    </div>
+                    <button type="submit" class="w-full bg-purple-600 text-white px-8 py-4 rounded-lg hover:bg-purple-700 transition font-medium text-lg shadow-lg hover:shadow-xl">
+                        Enviar Solicitação de Agendamento
+                    </button>
+                    <p class="text-sm text-gray-500 text-center">
+                        * Campos obrigatórios
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="py-20 bg-purple-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-6">Sobre a PhysioMax</h2>
+            <p class="text-xl max-w-3xl mx-auto leading-relaxed mb-8">
+                Há mais de 10 anos cuidando da saúde e bem-estar dos nossos pacientes. Nossa missão é proporcionar tratamentos de excelência com atendimento humanizado, utilizando as melhores técnicas e equipamentos disponíveis no mercado.
+            </p>
+            <div class="grid md:grid-cols-3 gap-8 mt-12">
+                <div>
+                    <div class="text-5xl font-bold mb-2">10+</div>
+                    <div class="text-purple-100">Anos de Experiência</div>
+                </div>
+                <div>
+                    <div class="text-5xl font-bold mb-2">5000+</div>
+                    <div class="text-purple-100">Pacientes Atendidos</div>
+                </div>
+                <div>
+                    <div class="text-5xl font-bold mb-2">98%</div>
+                    <div class="text-purple-100">Satisfação dos Pacientes</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-xl">P</span>
+                        </div>
+                        <span class="text-xl font-bold">PhysioMax</span>
+                    </div>
+                    <p class="text-gray-400">
+                        Cuidando da sua saúde com excelência e dedicação.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Contato</h3>
+                    <div class="space-y-2 text-gray-400">
+                        <p>📞 (11) 98765-4321</p>
+                        <p>📧 contato@fisiovida.com.br</p>
+                        <p>📍 Rua da Saúde, 123 - São Paulo</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Horários</h3>
+                    <div class="space-y-2 text-gray-400">
+                        <p>Segunda a Sexta: 8h - 20h</p>
+                        <p>Sábado: 8h - 14h</p>
+                        <p>Domingo: Fechado</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Links Rápidos</h3>
+                    <div class="space-y-2">
+                        <a href="#servicos" class="block text-gray-400 hover:text-purple-400 transition">Serviços</a>
+                        <a href="#beneficios" class="block text-gray-400 hover:text-purple-400 transition">Benefícios</a>
+                        <a href="#agendamento" class="block text-gray-400 hover:text-purple-400 transition">Agendar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 FisioVida. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
